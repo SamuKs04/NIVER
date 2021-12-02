@@ -1,0 +1,214 @@
+.conteiner {
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    background-color:#dce3e6 ;
+}
+.logo img {
+
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+
+}
+header {
+    background-color: #ADD8E6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+/*Parte Foto_principal*/
+
+.Menu-principal ul li {
+    font-family: sans-serif;
+    display: inline-block;
+    float: left;
+    margin: 30px;
+
+
+}
+.Menu-principal ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color:darkred;
+}
+
+.foto_principal  {
+    background-image: url("../img/foto_principal.png");
+    height: 700px;
+    width: 100%;
+    background-repeat: repeat;
+    display: inline-block;
+    text-align: center;
+    font-family: Petemoss, serif;
+    color: #FFFF;
+    position: relative;
+    margin-top: 94px;
+
+}
+
+.foto_principal h1 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.foto_principal h2 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+/*Parte introdução*/
+
+.fundo_text {
+
+    height: 850px;
+    width: 100%;
+}
+.text_intro h2 {
+    font-family: Petemoss, serif;
+    color: darkred;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px black;
+}
+
+.img_intro {
+    background-image: url("../img/ft_introducao.png");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 43em;
+    height: 560px;
+}
+
+.fundo_text p {
+    font-size: 15pt;
+    color: #844d94;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+/*----------------------Parte conhecer-----------------------------*/
+
+.fundopt2{
+    background-color: #F2F2F2;
+    height: 805px;
+}
+ .title_conhecer h1{
+    font-family: Petemoss, serif;
+    color: darkred;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px black;
+}
+
+.title_conhecer h2 {
+    font-size: 14pt;
+    color: #844d94;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40em;
+}
+
+.img_conhecer {
+    background-image: url("../img/ft_conhecer.png");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 395px;
+    height: 500px;
+}
+/*Texto de aniversário*/
+
+.text_niver {
+    background-color: #F2F2F2;
+    position: relative;
+    height: 880px;
+}
+
+.text_niver h1{
+    font-family: Petemoss, serif;
+    color: darkred;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px black;
+}
+
+.fundo_branco {
+    background-color: #ffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    width: 850px;
+    height: 754px;
+    margin-bottom: 30px;
+}
+.fundo_branco h2{
+    font-size: 13pt;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    width: 40em;
+    margin-top: 10px;
+}
+/*moments*/
+.fundopt3 {
+    background-image: url("../img/animation_coração.gif");
+    position: relative;
+}
+.title_moments {
+    font-family: Petemoss, serif;
+    color: darkred;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 20pt;
+    text-shadow: 2px 2px 2px black;
+}
+.music h3 {
+    margin-left: 588px;
+}
+.music p {
+    color: gray;
+    font-size: 15px;
+}
+.music audio {
+    margin-left: 568px;
+}
+.fotos_momentos .flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
